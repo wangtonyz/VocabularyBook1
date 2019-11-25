@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2F4F4F">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="141dp"
+        android:text="帮助：主页可以搜索单词并且添加到生词本，点击搜索到的单词可以发音，在生词本中点击单词可以出现例句，并增加和修改"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFA07A" />
+</LinearLayout>

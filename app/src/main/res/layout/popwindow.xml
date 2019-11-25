@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F">
+
+    <TextView
+        android:id="@+id/popsentence"
+        android:layout_width="330dp"
+        android:layout_height="486dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFA07A"
+        app:layout_constraintEnd_toEndOf="@+id/popview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/popview"
+        app:layout_constraintTop_toTopOf="@+id/popview" />
+
+    <View
+        android:id="@+id/popview"
+        android:layout_width="335dp"
+        android:layout_height="516dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/sentitle"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="例句："
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFA07A"
+        app:layout_constraintEnd_toEndOf="@+id/popview"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

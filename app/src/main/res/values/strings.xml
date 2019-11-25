@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VocabularyBook</string>
+    <string name="action_settings">帮助</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>
